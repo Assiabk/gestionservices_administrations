@@ -1,0 +1,92 @@
+body {
+  font-family: 'Arial', sans-serif;
+
+}
+.logo-header {
+  background: linear-gradient(135deg, #f7f7f7 30%, #2c6aa9 100%);
+  padding: 20px 0;
+  box-shadow: 0 4px 6px rgba(163, 40, 40, 0.1);
+}
+
+/* Logo Styling */
+.logo-header img {
+  max-width: 120px;
+  border-radius: 50%;
+  border: 2px solid #ddd;
+  padding: 10px;
+  background-color: white;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.hero-section {
+  background-size: cover;
+  color: #fff;
+  padding: 60px 0;
+}
+
+.card {
+  border-radius: 15px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-body {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.card-body img {
+  width: 100%;
+  height: 200px; /* Set a fixed height */
+  object-fit: cover;
+  border-radius: 15px; /* Add border-radius to images */
+}
+
+.card-body h5 {
+  margin-top: 20px; /* Add space between the image and the h5 */
+  margin-bottom: 20px; /* Add space between the h5 and the text */
+}
+
+.card-footer {
+  margin-top: auto;
+}
+
+.card-footer a {
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  display: inline-block;
+  width: 200px; /* Ensures buttons are consistent */
+  text-align: center;
+}
+
+.card-footer a:hover {
+  background-color: #0056b3; /* Darker shade for hover effect */
+  transform: scale(1.05); /* Slight scale effect on hover */
+}
+
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.card-title {
+  transition: color 0.3s ease;
+}
+
+.card:hover .card-title {
+  color: #007bff; /* Change the color on hover */
+}
+
+.card-text {
+  transition: color 0.3s ease;
+}
+
+.card:hover .card-text {
+  color: #6c757d; /* Change the color on hover */
+}
+
+  
